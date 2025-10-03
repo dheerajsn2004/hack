@@ -21,20 +21,14 @@ A civic-tech portal where citizens can report local issues (e.g., potholes, stre
 
 ## 🧪 Getting Started
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/YOUR_USERNAME/citizen-issue-dashboard.git
-cd citizen-issue-dashboard
-```
-
-### 2️⃣ Backend Setup
+### Backend Setup
 ```bash
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-### 3️⃣ Frontend Setup
+### Frontend Setup
 ```bash
 cd frontend
 npm install
