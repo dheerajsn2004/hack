@@ -33,8 +33,5 @@ ZoneC MedKit 120
 
 Sample output: (human readable allocation table)
 
-How to run:
 
-g++ main.cpp -O2 -o resource_allocator
-./resource_allocator
 

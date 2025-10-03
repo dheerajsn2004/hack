@@ -10,6 +10,4 @@ Input format (JSON via stdin): {
 }
 Output: schedule for each job: start_hour, end_hour, estimated cost
 
-how to run:
 
-node main.js < input.json.

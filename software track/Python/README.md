@@ -10,6 +10,4 @@ Sample:
 1 user1 2025-09-01T10:02:00 120.50 electronics
 2 user1 2025-09-01T10:03:00 5000.00 jewelry
 
-How to run:
 
-ython3 fraud_detector.py < tx_stream.txt.

@@ -14,7 +14,4 @@ Next P lines: origin dest passengers
 
 Output: For each OD pair: chosen route (sequence of segments), estimated time, average fare, assigned passengers (limited by capacity scaling)
 
-How to run: 
 
-compile: javac TransitOptimizer.java  
-run: java TransitOptimizer < input.txt.
