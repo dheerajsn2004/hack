@@ -1,13 +1,21 @@
-/*
-    Security System with Motion Sensor
-    Develop a basic security system using an Arduino and a motion sensor (PIR). When motion is detected, the system should trigger an alarm (a buzzer or an LED) 
-    and send a notification via serial communication to indicate a breach.
+// Design an Arduino-based system that creates a personalized comfort environment for an individual in a room using temperature, humidity, and user preferences. The system should predict comfort needs and adjust environment automatically.
 
-    Input:
-    Motion sensor detection (boolean: detected or not detected).
+// Requirements:
 
-    Output:
-    Alarm triggered (sound or light) and notification sent to the serial monitor.
-*/
+// Use a DHT22 sensor to continuously measure room temperature and humidity.
 
-// WRITE YOUR CODE HERE
+// Include a user input module (potentiometer, buttons, or keypad) to set a personal comfort preference (e.g., “Cool”, “Warm”, “Humidified”).
+
+// The system should dynamically adjust multiple actuators based on both sensor readings and user preference:
+
+// Fan (PWM) → adjusts airflow speed based on difference from preferred temperature.
+
+// Humidifier / Dehumidifier (relay) → activates to reach preferred humidity range.
+
+// Heater or AC simulation (LED/fan) → for extreme temperature deviations.
+
+// Include predictive control logic: if temperature/humidity is trending away from the comfort zone, preemptively adjust actuators.
+
+// Display live readings, user preference, and system status on an LCD or OLED display.
+
+// Optionally, log comfort deviations and adjustments to an SD card for analysis.
