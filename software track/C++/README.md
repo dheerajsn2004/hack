@@ -33,6 +33,8 @@ ZoneC MedKit 120
 
 Sample output: (human readable allocation table)
 
-HOw to run:
+How to run:
 
-Each file is a single-file prototype. For C++ compile with g++ main.cpp -O2 -o resource_allocator and run with redirected input.
+g++ main.cpp -O2 -o resource_allocator
+./resource_allocator
+
