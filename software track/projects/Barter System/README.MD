@@ -20,13 +20,7 @@ A platform where users can offer a skill (e.g., “teach guitar”) and request 
 
 ## 🧪 Getting Started
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/YOUR_USERNAME/skill-barter-platform.git
-cd skill-barter-platform
-```
-
-### 2️⃣ Backend Setup
+### Backend Setup
 ```bash
 cd server
 npm install
@@ -34,7 +28,7 @@ npm run dev
 ```
 Backend → [http://localhost:5000](http://localhost:5000)
 
-### 3️⃣ Frontend Setup
+### Frontend Setup
 ```bash
 cd client
 npm install
